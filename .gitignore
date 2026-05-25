@@ -4,8 +4,14 @@ __pycache__/
 .venv/
 venv/
 .env
-data/raw/
-data/processed/
+# Ignorar archivos de datos pero mantener estructura de carpetas
+**/*.csv
+**/*.xlsx
+**/*.xls
+**/*.pdf
+**/*.json
+# Permitir archivos de configuración json si los hubiera en src/
+!src/**/*.json
 *.log
 .DS_Store
 Thumbs.db
