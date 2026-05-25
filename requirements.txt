@@ -1,0 +1,6 @@
+pandas
+matplotlib
+numpy
+Pillow
+PyPDF2
+reportlab
